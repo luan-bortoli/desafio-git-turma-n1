@@ -17,6 +17,12 @@ if (numero > 0) {
 
 console.log("10 + 5 =", somar(10, 5));
 console.log(numero);
+function subtracao(a, b) {
+    return a - b;
+}
+
+console.log("10 + 5 =", somar(10, 5));
+console.log("10 - 5 =", subtracao(10, 5));
 
 function divisao(a, b) {
    if (b === 0) {
